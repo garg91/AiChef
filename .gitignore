@@ -1,0 +1,34 @@
+# --- Security & Secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# --- Dependency Folders ---
+# (Never upload these; they are huge and can be re-installed)
+node_modules/
+jspm_packages/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# --- Build & Output ---
+# (Files generated when you "build" your app)
+dist/
+build/
+out/
+.next/
+
+# --- Log Files ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# --- OS & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
